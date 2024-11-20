@@ -1,0 +1,25 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "REST API designed in Node.js for a TODO application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "db:seed": "node ./scripts/seedDb.js"
+  },
+  "keywords": [
+    "TODO",
+    "REST",
+    "API"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.26",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
